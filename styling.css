@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Roboto", serif;
+}
+#navbar{
+    position: sticky; top: 0; left: 0;
+    z-index: 100; padding: .5rem 5rem; box-shadow: 5px 5px 25px rgba(0,0,0,.5);
+    background-color: black;
+}
+.navbar .navbar-brand{
+    font-size: 25px; font-weight: 800;
+    color: rgba(7, 247, 7, 0.897) !important;
+    }
+#navbarSupportedContent a{
+    color: antiquewhite;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid rgba(7, 247, 7, 0.897) ;
+}
+#navbarSupportedContent button{
+    background: rgba(7, 247, 7, 0.897) ;
+    width: 5rem; border-radius: 15px;
+}
+section{
+    width: 100%; min-height: 100vh;
+    display: flex; justify-content: center;
+    align-items: center;
+}
+#home{
+    background: url(https://img.freepik.com/premium-photo/top-view-collection-assorted-herbs-white-background_964851-147942.jpg?semt=ais_hybrid);
+    background-color: rgb(87, 86, 86);
+    background-size: cover; 
+    background-position: center; flex-direction: column;
+}
+#home h1{
+    font-size: 80px; color: black; letter-spacing: 3px; background-position: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; text-shadow: 3px 4px 5px wheat;
+}
+#home p{
+    font-size: 18px; color: black !important;
+}
+#home .input-group{
+    width: 40%; height: 45px;
+}
+.signin{
+    background:rgba(7, 247, 7, 0.897) !important;
+    color: black !important; box-shadow: 2px 3px 4px rgba(0,0,0,.5);
+}
+#about{
+    background-color: rgb(119, 94, 94)
+}
+#about h1{
+    font-weight: 500; font-size: 50px; color: white; padding-bottom: 0%;
+}
+#about p{
+    color: white; 
+}
+.carouselExample{
+    width: 100%; height: auto; overflow: hidden;
+}
+.carousel-caption h1,p{
+    color: rgb(7, 7, 7) !important; font-weight: bolder;
+}
+#product{
+    background: #e5e5e5;
+}
+#product h1{
+    font-size: 50px; letter-spacing: 2px;
+    font-weight: 700;
+}
+#product img{
+    width: 200px; height: 200px;
+}
+.card{
+    width: 250px; height: 300px;
+    background: #e5e5e5 !important; 
+    border: none !important;
+    box-shadow: 15px 20px 20px black, inset 4px 4px 10px white;
+    border-radius: 20px;
+    overflow: hidden; justify-content: center;
+    align-items: center; margin: 20px 60px;
+}
+.card:hover{
+    box-shadow: inset 5px 5px 10px black, -4px -4px 10px white;
+    transition: .2s;
+}
+#contact img{
+    height: 100%; border: black;
+}
+.box{
+    width: 100% !important;
+    background: black;
+    margin-top: 10px;
+}
+form{
+    display: flex; flex-direction: column;
+}
+#contact input{
+    margin: 0px 0px; padding: 10px !important; 
+}
+#contact textarea{
+    margin: 10px 0px;
+}
+#contact h1{
+     font-size: 50px;  font-weight: 500;  color: white; padding-bottom: 0%;
+    
+}
+footer{
+    width: 100%; height: 30px; background-color: black;
+    margin-top: 20px; text-align: center;
+    color: white; padding: 3px;
+}
+.product-price {
+    font-size: 1.2rem;     
+    font-weight: bold;    
+    color: #0f0f0f;   
+         
+}
+.product-price:hover {
+    color: #030303;
+}
+ 
+
